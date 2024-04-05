@@ -19,6 +19,8 @@ public class Movimientohorizontal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 velocidadHorizontal = Vector3.zero;
+
         if (Input.GetKey(KeyCode.RightArrow)) 
         {
             transform.position = transform.position + new Vector3(velocidad, 0, 0) * Time.deltaTime;
@@ -26,11 +28,6 @@ public class Movimientohorizontal : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow)) 
         {
             transform.position = transform.position - new Vector3(velocidad, 0, 0) * Time.deltaTime;
-        }
-        else if (Input.GetKey(KeyCode.UpArrow))
-        {
-            transform.position = transform.position + new Vector3(0, salto, 0) * Time.deltaTime;
-                
         }
 
 
