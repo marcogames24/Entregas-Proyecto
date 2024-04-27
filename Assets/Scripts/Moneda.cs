@@ -9,14 +9,12 @@ public class Moneda : MonoBehaviour
     {
         
         
+
             GamePoints controlPuntos = FindAnyObjectByType<GamePoints>();
             controlPuntos.puntos += valor;
             controlPuntos.textoPuntos.text = "Puntos: " + controlPuntos.puntos;
             Destroy(gameObject);
 
-
-
         
-
     }
 }
