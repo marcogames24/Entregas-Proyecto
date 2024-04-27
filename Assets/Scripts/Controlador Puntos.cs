@@ -6,8 +6,13 @@ using UnityEngine.UI;
 
 public class GamePoints : MonoBehaviour
 {
-    public int points = 0;
-    public TextMeshProUGUI textPoints;
+
+    public int puntos = 0;
+
+    public TextMeshProUGUI textoPuntos;
+
+    //public int points = 0;
+    //public TextMeshProUGUI textPoints;
 
 
 }
