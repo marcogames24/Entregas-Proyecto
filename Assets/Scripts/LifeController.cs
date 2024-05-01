@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI; 
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LifeController : MonoBehaviour
 {
     
     public float vida = 100, vidaMaxima = 100;
     public Image barraVida;
+    public Animator animador;
     
     void Update()
     {
@@ -34,8 +36,19 @@ public class LifeController : MonoBehaviour
         {
             vida = 0;
 
-          
+            animador.SetTrigger("muerte");
+            //StartCoroutine(ReinciciarCorrutiva());
+            //SceneManager.LoadScene(0);
         }
     }
-    
+    public IEnumerator ReinciciarCorrutiva()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(0);
+
+    }
+    public void Reset()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
