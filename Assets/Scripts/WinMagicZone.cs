@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-public class NewBehaviourScript : MonoBehaviour
+public class WinMagicZone : MonoBehaviour
 {
     public Animator animador ; 
     public LifeController Controlvida;
@@ -13,6 +13,6 @@ public class NewBehaviourScript : MonoBehaviour
     {
         animador.SetTrigger("Victory");
 
-        Controlvida.Invoke("Reiniciar",1);
+        Controlvida.Invoke("Reset",3);
     }
 }

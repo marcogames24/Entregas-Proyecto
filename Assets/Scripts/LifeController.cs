@@ -11,6 +11,9 @@ public class LifeController : MonoBehaviour
     public float vida = 100, vidaMaxima = 100;
     public Image barraVida;
     public Animator animador;
+    bool muerto;
+    public Transform character;
+    public GameEnd End;
     
     void Update()
     {
@@ -32,18 +35,27 @@ public class LifeController : MonoBehaviour
             barraVida.color = Color.red;
            
         }
-        if (vida <= 0)
+        if (vida <= 0 && muerto==false) 
         {
             vida = 0;
 
             animador.SetTrigger("muerte");
-            //StartCoroutine(ReinciciarCorrutiva());
-            //SceneManager.LoadScene(0);
+            StartCoroutine(ReinciciarCorrutiva());
+            muerto = true;
+            
         }
+        
+        if (character.position.y<=-5.40)
+        {
+            vida = 0;
+        }
+
+
+
     }
     public IEnumerator ReinciciarCorrutiva()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3);
         SceneManager.LoadScene(0);
 
     }
