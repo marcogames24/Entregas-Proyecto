@@ -1756,8 +1756,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profundidad: -10
-  minXPos: -10.78
-  maxXPos: 9.45
+  minXPos: -5
+  maxXPos: 33
   velocidadCamara: 89
   suavidad: 0.3
   objetivo: {fileID: 585078583}
