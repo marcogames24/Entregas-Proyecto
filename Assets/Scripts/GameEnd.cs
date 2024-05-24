@@ -12,12 +12,13 @@ public class GameEnd : MonoBehaviour
         Application.Quit();
 
     }
-
+    /*
     public void Volver()
     {
         SceneManager.LoadScene("MenuPrincipal");
 
     }
+    */
     public IEnumerator ReinciciarCorrutiva()
     {
         yield return new WaitForSeconds(3);
