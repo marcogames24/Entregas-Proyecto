@@ -29,4 +29,12 @@ public class GameEnd : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    public AudioSource victorySound; // Asigna el GameObject con el Audio Source para la victoria
+    public AudioSource defeatSound; // Asigna el GameObject con el Audio Source para la derrota
+
+    // Llama a estos métodos cuando ocurra la victoria o la derrota
+    public void PlayDefeatSound()
+    {
+        defeatSound.Play();
+    }
 }

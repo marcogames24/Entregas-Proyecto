@@ -94,27 +94,6 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   multiSpriteImportData: []
   layeredSpriteImportData:
-  - name: Capa 4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1034
-      y: 394
-      width: 0
-      height: 0
-    spriteID: bca33086126fc8d4a8d46125c5415823
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1034, y: 394}
-    spritePosition: {x: 0, y: 1080}
   - name: Slime Body
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -130,9 +109,9 @@ ScriptedImporter:
     spriteBone:
     - name: bone_3
       guid: 27d3afadfd388e04ca2c3dd0ce66264f
-      position: {x: 0.054533187, y: -3.0732777, z: 0}
-      rotation: {x: 0, y: 0, z: 0.71681744, w: 0.697261}
-      length: 313.53973
+      position: {x: -1.8338616, y: 102.64797, z: 0}
+      rotation: {x: 0, y: 0, z: 0.71855456, w: 0.6954707}
+      length: 207.80925
       parentId: 1
       color:
         serializedVersion: 2
@@ -148,9 +127,9 @@ ScriptedImporter:
         rgba: 4278190335
     - name: bone_2
       guid: 4a562ef3ff4ed6146af98d7611e479bb
-      position: {x: 3.0727415, y: 0.05489897, z: 0}
-      rotation: {x: 0, y: 0, z: -0.7139707, w: 0.7001756}
-      length: 329.1231
+      position: {x: 3.0723197, y: -118.39134, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7177997, w: 0.69624966}
+      length: 210.71208
       parentId: 1
       color:
         serializedVersion: 2
@@ -167,7 +146,7 @@ ScriptedImporter:
     - name: bone_5
       guid: f3485616301ab754899a868af4166dcd
       position: {x: 166.01193, y: 0.000009150177, z: 0}
-      rotation: {x: 0, y: 0, z: 0.0053766, w: 0.99998564}
+      rotation: {x: 0, y: 0, z: 0.0053766, w: 0.9999856}
       length: 118.45722
       parentId: 3
       color:
@@ -938,7 +917,7 @@ ScriptedImporter:
     - position: {x: 182.086, y: 484.827}
       boneWeight:
         weight0: 0.99
-        weight1: 0.01
+        weight1: 0.00999999
         weight2: 0
         weight3: 0
         boneIndex0: 0
@@ -948,7 +927,7 @@ ScriptedImporter:
     - position: {x: 175.741, y: 472.125}
       boneWeight:
         weight0: 0.98
-        weight1: 0.02
+        weight1: 0.01999998
         weight2: 0
         weight3: 0
         boneIndex0: 0
@@ -958,7 +937,7 @@ ScriptedImporter:
     - position: {x: 117.63501, y: 374.052}
       boneWeight:
         weight0: 0.99
-        weight1: 0.01
+        weight1: 0.00999999
         weight2: 0
         weight3: 0
         boneIndex0: 0
@@ -1498,18 +1477,18 @@ ScriptedImporter:
         rgba: 4278190335
     - name: bone_2
       guid: 4a562ef3ff4ed6146af98d7611e479bb
-      position: {x: 3.0727441, y: 0.05484442, z: 0}
-      rotation: {x: 0, y: -0, z: -0.7139707, w: 0.7001756}
-      length: 329.1231
+      position: {x: 3.0723224, y: -118.391396, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7177997, w: 0.69624966}
+      length: 210.7121
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4278255615
     - name: bone_3
       guid: 27d3afadfd388e04ca2c3dd0ce66264f
-      position: {x: 0.054535788, y: -3.0733323, z: 0}
-      rotation: {x: 0, y: -0, z: 0.71681744, w: 0.697261}
-      length: 313.5397
+      position: {x: -1.8338596, y: 102.64795, z: 0}
+      rotation: {x: 0, y: -0, z: 0.71855456, w: 0.6954707}
+      length: 207.80925
       parentId: 0
       color:
         serializedVersion: 2
@@ -1526,22 +1505,13 @@ ScriptedImporter:
     - name: bone_5
       guid: f3485616301ab754899a868af4166dcd
       position: {x: 166.01193, y: 0.0000018545478, z: 0}
-      rotation: {x: 0, y: 0, z: 0.005376608, w: 0.9999856}
+      rotation: {x: 0, y: 0, z: 0.0053766086, w: 0.99998564}
       length: 118.45723
       parentId: 3
       color:
         serializedVersion: 2
         rgba: 4294901760
     parts:
-    - spritePosition:
-        x: 0
-        y: 1080
-        width: 0
-        height: 0
-      spriteId: bca33086126fc8d4a8d46125c5415823
-      bones: 
-      parentGroup: 0
-      order: 0
     - spritePosition:
         x: 394
         y: 0
@@ -1583,16 +1553,6 @@ ScriptedImporter:
   resliceFromLayer: 0
   pSDLayerImportSetting: []
   psdLayers:
-  - name: Capa 4
-    spriteName: Capa 4
-    isGroup: 0
-    parentIndex: -1
-    spriteID: bca33086126fc8d4a8d46125c5415823
-    layerID: 6
-    mosaicPosition: {x: 1034, y: 394}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
   - name: Slime Body
     spriteName: Slime Body
     isGroup: 0
@@ -1614,12 +1574,12 @@ ScriptedImporter:
     isImported: 1
     isVisible: 1
   - name: Fondo copia
-    spriteName: 
+    spriteName: Fondo copia
     isGroup: 0
     parentIndex: -1
     spriteID: a4287243a6de80a41bbfd27503f190a7
     layerID: 2
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 0
     isVisible: 0
