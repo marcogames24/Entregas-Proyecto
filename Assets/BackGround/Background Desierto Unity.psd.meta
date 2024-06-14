@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background Desierto Unity_0: -6421260938359492588
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
